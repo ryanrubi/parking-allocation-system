@@ -1,0 +1,67 @@
+.form-container {
+    padding: 80px 0 0 280px;
+}
+
+/* FORM */
+form {
+    display: flex;
+    justify-content: center;
+}
+
+label { padding: 2px 9px 0 0;}
+
+input[type=number] {
+    width: 50px;
+    height: 21px;
+    border: 1px solid rgb(206,212,218); 
+    border-radius: 2px; 
+    padding: 4px;
+    margin-right: 28px;
+}
+
+select {
+    width: 60px;
+    height: 30px;
+    border: 1px solid rgb(206,212,218); 
+    border-radius: 2px; 
+    padding: 4px;
+    margin-right: 28px;
+}
+
+input[type=submit] {
+    background-color: rgb(8, 125, 249);
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 120px;
+    height: 30px;
+}
+  
+/* TABLE */
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+table {
+    width: 100%;
+    border: 1px solid rgba(172,172,172);
+    border-collapse: collapse;
+    margin: 50px;
+    text-align: center;
+    width: 42rem;
+}
+
+th {
+    border: 1px solid rgba(172,172,172);
+    color: white;
+    background-color: rgb(72,72,72);
+    padding: 12px;
+}
+
+td {
+    border: 1px solid rgba(172,172,172);
+    padding: 10px;
+}
+  

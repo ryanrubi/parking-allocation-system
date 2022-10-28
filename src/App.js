@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+import { Route, Switch, Redirect } from "react-router-dom";
+import FormInput from "./components/form";
+import Parking from './components/parking';
+import NavBar from "./components/navBar";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+
+      <Switch>
+        <Route path="/" exact>
+          <Redirect to="/parking-allocation-system"/>
+        </Route>
+
+        <Route path="/parking-allocation-system">
+          <Parking/>
+        </Route>
+
+        <Route path="/manage">
+          <FormInput/>
+        </Route>
+      </Switch>
     </div>
   );
 }

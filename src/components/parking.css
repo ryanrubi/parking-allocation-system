@@ -1,0 +1,88 @@
+
+.container {
+    margin-left: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+.slot-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sp-container,
+.mp-container,
+.lp-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.lg-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 230px;
+}
+
+.arrow-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 80px;
+    gap: 25rem
+}
+
+h1 { padding-right: 12px; }
+
+/* SLOT */
+.s-vehicle {
+    border-top: 4px solid rgb(254,221,62);
+    border-left: 4px solid rgb(254,221,62);
+    border-right: 4px solid rgb(254,221,62);
+    height: 150px;
+}
+
+.m-vehicle {
+    padding: 0 10px 0 10px;
+    border-bottom: 4px solid rgb(254,221,62);
+    border-left: 4px solid rgb(254,221,62);
+    border-right: 4px solid rgb(254,221,62);
+    height: 170px;
+}
+
+.l-vehicle {
+    padding: 0 20px 0 20px;
+    border-bottom: 4px solid rgb(254,221,62);
+    border-left: 4px solid rgb(254,221,62);
+    border-right: 4px solid rgb(254,221,62);
+    height: 190px;
+}
+
+/* IMG */
+.s-vehicle img {
+    height: 140px;
+    width: 80px;
+}
+.m-vehicle img {
+    height: 170px;
+    width: 100px;
+    transform: rotate(180deg);
+}
+.l-vehicle img {
+    height: 190px;
+    width: 120px;
+    transform: rotate(180deg);
+}
+
+.arrow-left,
+.arrow-top,
+.arrow-bottom {
+    width: 100px;
+    height: 80px;
+}
+.arrow-left { margin-top: 300px; }
+
+.arrow-top { transform: rotate(90deg);}
+
+.arrow-bottom { transform: rotate(-90deg);}

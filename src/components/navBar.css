@@ -1,0 +1,36 @@
+.navbar-container {
+    width: 280px;
+    height: 100%;
+    position: fixed;
+    color: white;
+    background-color: rgb(72,72,72);
+}
+
+.navbar-container ul {
+    padding-top: 2rem;
+    list-style-type: none;
+}
+  
+.navbar-container li {
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+}
+
+.navlink:hover {
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.brand {
+    padding: 22px 2px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(8, 125, 249);
+}
