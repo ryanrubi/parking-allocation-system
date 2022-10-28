@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/parking-allocation-system/static/css/main.6c98ddb6.css",
+    "main.js": "/parking-allocation-system/static/js/main.7663b3e2.js",
+    "static/js/787.2a988850.chunk.js": "/parking-allocation-system/static/js/787.2a988850.chunk.js",
+    "static/media/l_vehicle.JPG": "/parking-allocation-system/static/media/l_vehicle.7db84d08244fa180a13c.JPG",
+    "static/media/m_vehicle.JPG": "/parking-allocation-system/static/media/m_vehicle.953ee7d2f29cb80ea0bb.JPG",
+    "static/media/s_vehicle.JPG": "/parking-allocation-system/static/media/s_vehicle.92af688e366bae92dc57.JPG",
+    "index.html": "/parking-allocation-system/index.html",
+    "main.6c98ddb6.css.map": "/parking-allocation-system/static/css/main.6c98ddb6.css.map",
+    "main.7663b3e2.js.map": "/parking-allocation-system/static/js/main.7663b3e2.js.map",
+    "787.2a988850.chunk.js.map": "/parking-allocation-system/static/js/787.2a988850.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c98ddb6.css",
+    "static/js/main.7663b3e2.js"
+  ]
+}
